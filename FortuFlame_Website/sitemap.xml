@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://fortuflame.com/</loc>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fortuflame.com/product1-detail.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://fortuflame.com/product2-detail.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://fortuflame.com/product3-detail.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://fortuflame.com/product4-detail.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://fortuflame.com/product5-detail.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://fortuflame.com/product6-detail.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://fortuflame.com/product7-detail.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://fortuflame.com/product8-detail.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://fortuflame.com/product9-detail.html</loc>
+    <priority>0.8</priority>
+  </url>
+</urlset>
