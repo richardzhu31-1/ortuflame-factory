@@ -1,0 +1,18 @@
+backend:
+  name: git-gateway
+  branch: main # 确保这是你的主分支名
+
+media_folder: "assets/images" # 上传的图片存这里
+public_folder: "/assets/images"
+
+collections:
+  - name: "products"
+    label: "B2B产品管理"
+    folder: "content/products" # 产品数据存这里
+    create: true
+    fields:
+      - {label: "产品名称", name: "title", widget: "string"}
+      - {label: "产品主图", name: "image", widget: "image"}
+      - {label: "B2B描述/规格", name: "body", widget: "markdown"}
+      - {label: "起订量(MOQ)", name: "moq", widget: "string", default: "200 sets"}
+      - {label: "OEM定制支持", name: "oem", widget: "boolean", default: true}
