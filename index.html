@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FortuFlame | Premium BBQ & Kitchen Tools Manufacturer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .hero-bg {
+            background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), 
+                        url('https://images.unsplash.com/photo-1556910103-1c02745aae4d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80');
+            background-size: cover; background-position: center;
+        }
+        .product-card { transition: all 0.3s ease; border: 1px solid rgba(255,255,255,0.05); }
+        .product-card:hover { transform: translateY(-10px); border-color: #ff6600; box-shadow: 0 20px 40px rgba(0,0,0,0.6); }
+    </style>
+</head>
+<body class="bg-[#0a0a0a] text-gray-100 font-sans">
+
+    <nav class="p-5 border-b border-gray-800 bg-black/95 sticky top-0 z-50 backdrop-blur-md">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <img src="logo.png" alt="Logo" class="h-10 w-auto"> 
+                <h1 class="text-xl font-black text-orange-500 tracking-tighter uppercase">FORTUFLAME</h1>
+            </div>
+            <div class="hidden md:flex space-x-8 text-xs font-bold uppercase tracking-widest items-center">
+                <a href="#" class="hover:text-orange-500 transition">Home</a>
+                <a href="#about" class="hover:text-orange-500 transition">Who We Are</a>
+                <a href="#products" class="hover:text-orange-500 transition">Catalog</a>
+                <a href="https://www.facebook.com/FortuFlame" target="_blank" class="hover:text-blue-500 transition">Facebook</a>
+                <a href="https://wa.me/8615058092712" target="_blank" class="bg-green-600 px-4 py-2 rounded-full text-white hover:bg-green-500 transition">WhatsApp</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-bg h-[400px] flex items-center justify-center text-center px-4">
+        <div class="max-w-4xl">
+            <span class="text-orange-500 font-bold tracking-[0.4em] uppercase mb-4 block text-sm">Industrial Excellence</span>
+            <h2 class="text-5xl md:text-6xl font-black mb-6 text-white uppercase italic leading-tight">Professional <span class="text-orange-500">B2B</span> Kitchenware</h2>
+            <p class="text-lg text-gray-400">Direct factory supply for North American procurement standards.</p>
+        </div>
+    </header>
+
+    <section id="about" class="py-24 bg-[#0f0f0f]">
+        <div class="container mx-auto px-4 text-center mb-16">
+            <h2 class="text-orange-500 text-4xl font-black uppercase mb-8 italic">Manufacturing Excellence</h2>
+            <p class="max-w-3xl mx-auto text-gray-400">Based in Ningbo, Fortuflame provides high-end OEM/ODM kitchenware and BBQ solutions for the global B2B market.</p>
+        </div>
+    </section>
+
+    <section id="products" class="py-20 bg-black">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-orange-500 text-3xl font-black uppercase mb-16 italic inline-block border-b-2 border-orange-500 pb-2">Product Catalog</h2>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+                <div class="product-card bg-[#161616] rounded-3xl overflow-hidden flex flex-col group">
+                    <div class="bg-white p-8 h-64 flex items-center justify-center"><img src="silicone-set.jpg" class="max-h-full object-contain group-hover:scale-105 transition"></div>
+                    <div class="p-8">
+                        <h3 class="text-white font-bold uppercase mb-2">Silicone Utensil Set</h3>
+                        <a href="product2-detail.html" class="block border-2 border-orange-500 text-orange-500 py-3 rounded-full text-xs font-black uppercase hover:bg-orange-500 hover:text-black transition text-center">View Details</a>
+                    </div>
+                </div>
+
+                <div class="product-card bg-[#161616] rounded-3xl overflow-hidden flex flex-col group">
+                    <div class="bg-white p-8 h-64 flex items-center justify-center"><img src="product1.jpg" class="max-h-full object-contain group-hover:scale-105 transition"></div>
+                    <div class="p-8">
+                        <h3 class="text-white font-bold uppercase mb-2">Custom BBQ Grates</h3>
+                        <a href="product1-detail.html" class="block bg-orange-500 text-black py-3 rounded-full text-xs font-black uppercase hover:bg-orange-400 transition text-center">View Details</a>
+                    </div>
+                </div>
+
+                <div class="product-card bg-[#161616] rounded-3xl overflow-hidden flex flex-col group">
+                    <div class="bg-white p-8 h-64 flex items-center justify-center"><img src="measuring-tools.jpg" class="max-h-full object-contain group-hover:scale-105 transition"></div>
+                    <div class="p-8">
+                        <h3 class="text-white font-bold uppercase mb-2">Measuring Set</h3>
+                        <a href="product7-detail.html" class="block border-2 border-orange-500 text-orange-500 py-3 rounded-full text-xs font-black uppercase hover:bg-orange-500 hover:text-black transition text-center">View Details</a>
+                    </div>
+                </div>
+
+                <div class="product-card bg-[#161616] rounded-3xl overflow-hidden flex flex-col group">
+                    <div class="bg-white p-8 h-64 flex items-center justify-center"><img src="grate.jpg" class="max-h-full object-contain group-hover:scale-105 transition"></div>
+                    <div class="p-8">
+                        <h3 class="text-white font-bold uppercase mb-2">Cast Iron Grate</h3>
+                        <a href="product8-detail.html" class="block border-2 border-orange-500 text-orange-500 py-3 rounded-full text-xs font-black uppercase hover:bg-orange-500 hover:text-black transition text-center">View Details</a>
+                    </div>
+                </div>
+
+                <div class="product-card bg-[#161616] rounded-3xl overflow-hidden flex flex-col group">
+                    <div class="bg-white p-8 h-64 flex items-center justify-center"><img src="product2.jpg" class="max-h-full object-contain group-hover:scale-105 transition"></div>
+                    <div class="p-8">
+                        <h3 class="text-white font-bold uppercase mb-2">Industrial Scoops</h3>
+                        <a href="product9-detail.html" class="block border-2 border-orange-500 text-orange-500 py-3 rounded-full text-xs font-black uppercase hover:bg-orange-500 hover:text-black transition text-center">View Details</a>
+                    </div>
+                </div>
+
+                <div class="product-card bg-[#161616] rounded-3xl overflow-hidden flex flex-col group">
+                    <div class="bg-white p-8 h-64 flex items-center justify-center"><img src="product5.jpg" class="max-h-full object-contain group-hover:scale-105 transition"></div>
+                    <div class="p-8">
+                        <h3 class="text-white font-bold uppercase mb-2">Spider Strainer</h3>
+                        <a href="product5-detail.html" class="block bg-orange-500 text-black py-3 rounded-full text-xs font-black uppercase hover:bg-orange-400 transition text-center">View Details</a>
+                    </div>
+                </div>
+
+                <div class="product-card bg-[#161616] rounded-3xl overflow-hidden flex flex-col group">
+                    <div class="bg-white/5 p-8 h-64 flex items-center justify-center"><img src="product3.jpg" class="max-h-full object-contain group-hover:scale-105 transition"></div>
+                    <div class="p-8">
+                        <h3 class="text-white font-bold uppercase mb-2">Chimney Starter</h3>
+                        <a href="product3-detail.html" class="block bg-orange-500 text-black py-3 rounded-full text-xs font-black uppercase hover:bg-orange-400 transition text-center">View Details</a>
+                    </div>
+                </div>
+
+                <div class="product-card bg-[#161616] rounded-3xl overflow-hidden flex flex-col group">
+                    <div class="bg-white/5 p-8 h-64 flex items-center justify-center"><img src="product4.jpg" class="max-h-full object-contain group-hover:scale-105 transition"></div>
+                    <div class="p-8">
+                        <h3 class="text-white font-bold uppercase mb-2">Bamboo Skewers</h3>
+                        <a href="product4-detail.html" class="block bg-orange-500 text-black py-3 rounded-full text-xs font-black uppercase hover:bg-orange-400 transition text-center">View Details</a>
+                    </div>
+                </div>
+
+                <div class="product-card bg-[#161616] rounded-3xl overflow-hidden flex flex-col group">
+                    <div class="bg-white/5 p-8 h-64 flex items-center justify-center"><img src="product6.jpg" class="max-h-full object-contain group-hover:scale-105 transition"></div>
+                    <div class="p-8">
+                        <h3 class="text-white font-bold uppercase mb-2">Skewer Tube</h3>
+                        <a href="product6-detail.html" class="block bg-orange-500 text-black py-3 rounded-full text-xs font-black uppercase hover:bg-orange-400 transition text-center">View Details</a>
+                    </div>
+                </div>
+
+                <div class="product-card bg-[#161616] rounded-3xl overflow-hidden flex flex-col group">
+                    <div class="bg-white/5 p-8 h-64 flex items-center justify-center">
+                        <img src="images/castiron_cleaning_lifestyle.png" class="max-h-full object-contain group-hover:scale-105 transition">
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-white font-bold uppercase mb-2">Chainmail Scrubber</h3>
+                        <p class="text-gray-500 text-xs mb-6 italic">316L Stainless Steel. Cast iron restorer.</p>
+                        <a href="product-chainmail-scrubber.html" class="block bg-orange-500 text-black py-3 rounded-full text-xs font-black uppercase hover:bg-orange-400 transition text-center">View Details</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-black py-20 border-t border-white/5 text-center">
+        <div class="container mx-auto px-4">
+            <h5 class="text-orange-500 font-black text-2xl mb-4 uppercase tracking-tighter">FORTUFLAME</h5>
+            <p class="text-gray-500 text-sm mb-2">📧 Email: richard@fortuflame.com</p>
+            <p class="text-gray-500 text-sm">📱 WhatsApp: +86 15058092712</p>
+            <p class="pt-8 opacity-30 text-[10px] uppercase tracking-widest">© 2026 Fortuflame. Ningbo, China.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
